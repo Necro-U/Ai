@@ -107,7 +107,6 @@ plt.legend()
 plt.show()
 
 # Visualising the Test set results
-from matplotlib.colors import ListedColormap
 X_set, y_set = sc.inverse_transform(X_test), y_test
 X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 10, stop = X_set[:, 0].max() + 10, step = 0.25),
                      np.arange(start = X_set[:, 1].min() - 1000, stop = X_set[:, 1].max() + 1000, step = 0.25))

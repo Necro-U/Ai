@@ -6,7 +6,7 @@ RUN apk --no-cache add openssl git curl openssh-client bash
 COPY . /content/
 WORKDIR /tmp
 
-RUN ls /
+RUN ls /content
 COPY command.sh /tmp
 
 RUN ls

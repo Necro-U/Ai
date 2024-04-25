@@ -7,7 +7,7 @@ COPY . /tmp
 WORKDIR /tmp
 
 RUN ls
-RUN chmod +x /command.sh
+RUN chmod +x /tmp/command.sh
 ENTRYPOINT [ "/command.sh" ]
 
 RUN echo Current Directory: `pwd`\

@@ -1,8 +1,9 @@
 #!/bin/bash
 # https://github.com/Necro-U/github_actions.git
 
+cp .. .
 rm -rf ./github
-rm ./git
+rm -rf ./git
 rm -rf temp
 echo after deletion
 ls -al

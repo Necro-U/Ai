@@ -17,7 +17,7 @@ git lfs install
 
 touch selam.txt
 
-git clone "${remote_repo}"
+git clone "${remote_repo}" .
 
 git add -A
 git commit -m "Automatik Binder push" || exit 0

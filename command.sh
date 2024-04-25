@@ -12,6 +12,7 @@ git config --global user.name "Automated Binder"
 git config --global user.email "actions@users.noreply.github.com"
 
 echo initialized
+ls -al
 # git remote add origin "${remote_repo}"
 # git show-ref
 # git branch --verbose

@@ -7,6 +7,8 @@ rm -rf ./git
 rm -rf temp
 echo after deletion
 ls -al
+echo in content: 
+ls /content
 
 git init
 remote_repo=https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Ai.git

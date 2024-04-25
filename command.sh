@@ -1,8 +1,6 @@
 #!/bin/bash
 # https://github.com/Necro-U/github_actions.git
 
-mkdir temp && cd temp
-
 rm -rf ./github
 
 git init
@@ -19,7 +17,7 @@ ls -al
 
 git lfs install
 
-touch selam.txt
+# touch selam.txt
 
 git add -A
 git commit -m "Automatik Binder push" || exit 0

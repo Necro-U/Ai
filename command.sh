@@ -22,4 +22,4 @@ echo token: $GITHUB_TOKEN
 
 git add -A 
 git commit -m "Automatik Binder push" || exit 0
-git push "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git" master
+git push -f "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git" master

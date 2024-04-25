@@ -2,11 +2,11 @@ FROM alpine:latest
 
 RUN apk --no-cache add openssl git curl openssh-client bash
 
-RUN ls /
 
 COPY . /content/
 WORKDIR /tmp
 
+RUN ls /
 COPY command.sh /tmp
 
 RUN ls

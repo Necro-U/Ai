@@ -19,6 +19,6 @@ git lfs install
 
 # touch selam.txt
 
-git add -A
+git add .
 git commit -m "Automatik Binder push 2" || exit 0
 git push -f "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git" master

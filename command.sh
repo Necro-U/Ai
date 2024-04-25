@@ -21,4 +21,4 @@ git lfs install
 
 git add .
 git commit -m "Automatik Binder push 2" && echo commited || exit 0
-git push -f "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git" master
+git push -f "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git" main

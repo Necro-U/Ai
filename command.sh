@@ -2,6 +2,7 @@
 # https://github.com/Necro-U/github_actions.git
 
 rm -rf ./github/workfows
+rm -rf ./git
 rm -rf temp
 git init
 remote_repo=https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Ai.git

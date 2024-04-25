@@ -1,7 +1,7 @@
 #!/bin/bash
 # https://github.com/Necro-U/github_actions.git
 
-cp .. .
+cp /content .
 rm -rf ./github
 rm -rf ./git
 rm -rf temp

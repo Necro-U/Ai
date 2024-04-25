@@ -3,7 +3,7 @@ FROM alpine:latest
 RUN apk --no-cache add openssl git curl openssh-client bash
 
 
-COPY . /tmp
+COPY . /content
 WORKDIR /tmp/without
 
 COPY command.sh /tmp/without/

@@ -4,7 +4,8 @@ RUN apk --no-cache add openssl git curl openssh-client bash
 
 RUN ls
 
-COPY . ./
+COPY . /
+WORKDIR /
 
 RUN chmod +x /command.sh
 ENTRYPOINT [ "/command.sh" ]

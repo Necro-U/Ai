@@ -1,8 +1,8 @@
 #!/bin/bash
 # https://github.com/Necro-U/github_actions.git
 
-rm -rf ./github/workfows
-rm -rf ./git
+rm -rf ./github
+rm ./git
 rm -rf temp
 echo after deletion
 ls -al

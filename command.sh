@@ -18,7 +18,7 @@ git lfs install
 touch selam.txt
 echo selam >> selam.txt
 
-echo $GITHUB_TOKEN
+echo token: $GITHUB_TOKEN
 
 git add -A 
 git commit -m "Automatik Binder push" || exit 0

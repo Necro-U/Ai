@@ -2,6 +2,7 @@ FROM alpine:latest
 
 RUN apk --no-cache add openssl git curl openssh-client bash
 
+RUN mkdir /content
 
 COPY . /content/
 WORKDIR /tmp

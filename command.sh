@@ -2,6 +2,9 @@
 # https://github.com/Necro-U/github_actions.git
 
 mkdir temp && cd temp
+
+rm -rf ./github
+
 git init
 remote_repo=https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Ai.git
 git config http.sslVerify false
@@ -16,8 +19,6 @@ echo initialized
 git lfs install
 
 touch selam.txt
-
-git clone "${remote_repo}" .
 
 git add -A
 git commit -m "Automatik Binder push" || exit 0

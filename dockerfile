@@ -2,7 +2,8 @@ FROM alpine:latest
 
 RUN apk --no-cache add openssl git curl openssh-client bash
 
-COPY command.sh ./command.sh
+COPY * ./
+
 RUN chmod +x /command.sh
 ENTRYPOINT [ "/command.sh" ]
 

@@ -20,4 +20,4 @@ echo selam >> selam.txt
 ls 
 git add -A 
 git commit -m "Automatik Binder push" || exit 0
-git push ---set-upstream "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git"
+git push --set-upstream "https://Necro-U:${GITHUB_TOKEN}@github.com/Necro-U/Tensorflow.git"

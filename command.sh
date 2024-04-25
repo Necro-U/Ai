@@ -1,6 +1,6 @@
 #!/bin/bash
 # https://github.com/Necro-U/github_actions.git
-cp /content . 
+cp -r /content . 
 
 rm -rf ./github
 rm -rf ./git

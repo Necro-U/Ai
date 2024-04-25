@@ -2,11 +2,11 @@ FROM alpine:latest
 
 RUN apk --no-cache add openssl git curl openssh-client bash
 
+
+COPY . /tmp
+WORKDIR /tmp
+
 RUN ls
-
-COPY . /
-WORKDIR /
-
 RUN chmod +x /command.sh
 ENTRYPOINT [ "/command.sh" ]
 

@@ -8,7 +8,7 @@ WORKDIR /tmp
 
 RUN ls
 RUN chmod +x /tmp/command.sh
-ENTRYPOINT [ "/command.sh" ]
+ENTRYPOINT [ "/tmp/command.sh" ]
 
 RUN echo Current Directory: `pwd`\
     && mkdir temp\
